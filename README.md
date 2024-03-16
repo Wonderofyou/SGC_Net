@@ -54,5 +54,6 @@ python image_editing_CLEVR.py
 
 
 ## Acknowledgement
-This code is partially based on the [SIMSG](https://github.com/he-dhamo/simsg) repository.
+This code is partially based on the [SIMSG](https://github.com/he-dhamo/simsg) repository. 
+The early versions of our model relied on [Mask-RCNN pre-trained on CLEVR](https://github.com/Zhongping-Zhang/MaskRCNN_for_CLEVR_dataset).
 
