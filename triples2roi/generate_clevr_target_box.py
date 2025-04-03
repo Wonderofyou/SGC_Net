@@ -28,7 +28,7 @@ print("test set length: ", len(data_test))
 
 with open(join(dirname(args.triples_info_folder), "target/vocab.json"), "r") as f:
     vocab = json.load(f)
-model = torch.load(args.model_name, weights_only=True)
+model = torch.load(args.model_name)
 
 with torch.no_grad():
     model.eval()#model.eavl() fix the BN and Dropout
